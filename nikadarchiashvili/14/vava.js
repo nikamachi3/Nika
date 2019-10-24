@@ -6,11 +6,12 @@ function nm(m,n){
        
               }
        }  
-       else if (m>n){
-              for(i = n; i <= m; i++){
+       else {
+              for(i = m; i >= n; i--){
                      p.innerHTML += i + "</br>";
        
               }
-       }   
+       }
+          
 }
-nm(50, 20);
+nm(25, 20);
