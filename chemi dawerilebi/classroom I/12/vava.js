@@ -14,4 +14,4 @@ function ass(n){
 
 }
 
-ass(1);
+ass(5);
